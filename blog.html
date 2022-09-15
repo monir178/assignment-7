@@ -47,28 +47,25 @@
     </h3>
     <br>
     <br>
-    <h1 class="text-danger fw-bold fs-1">3. Filter vs Map vs Find vs Foreach:</h1>
+    <h1 class="text-danger fw-bold fs-1">3. How does work JavaScript Event Loop?</h1>
     <br>
     <h3 class="fw-4 ">
-        Basically forEach works as a traditional for loop looping over the array and providing you array elements to do
-        operations on them. The main difference between forEach and filter is that forEach just loop over the array and
-        executes the callback but filter executes the callback and check its return value. Map like filter & foreach
-        takes a callback and run it against every element on the array but whats makes it unique is it generate a new
-        array based on your existing array. The find() method returns the value of the first element that passes a test.
-        The find() method executes a function for each array element. The find() method returns undefined if no elements
-        are found. The find() method does not execute the function for empty elements.
+        The Event Loop has one simple job — to monitor the Call Stack and the Callback Queue. If the Call Stack is
+        empty, the Event Loop will take the first event from the queue and will push it to the Call Stack, which
+        effectively runs it. Such an iteration is called a tick in the Event Loop.
     </h3>
 
     <br>
     <br>
-    <h1 class="text-danger fw-bold fs-1">4. Why should you use template string in JS:</h1>
+    <h1 class="text-danger fw-bold fs-1">4. How many ways to get undefined in JavaScript?</h1>
     <br>
     <h3 class="fw-4 ">
-        Template strings are a powerful feature of modern JavaScript released in ES6. It lets us insert/interpolate
-        variables and expressions into strings without needing to concatenate like in older versions of JavaScript. It
-        allows us to create strings that are complex and contain dynamic elements. Another great thing that comes with
-        template strings are tags. Tags are functions that take a string and the decomposed parts of the string as
-        parameters and are great for converting strings to different entities.
+
+        1. Uninitialized variable <br />
+        2. Accessing a non-existing property <br />
+        3. Function parameters <br />
+        4. Function return value <br />
+        5. void operator
     </h3>
 
 
